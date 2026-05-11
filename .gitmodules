@@ -1,0 +1,9 @@
+[submodule "ai-tools/OpenSpec"]
+	path = ai-tools/OpenSpec
+	url = https://github.com/liaosw97/OpenSpec.git
+[submodule "ai-tools/superpowers"]
+	path = ai-tools/superpowers
+	url = https://github.com/liaosw97/superpowers.git
+[submodule "ai-tools-bridge"]
+	path = ai-tools-bridge
+	url = https://github.com/liaosw97/ai-tools-bridge.git

@@ -1,0 +1,12 @@
+{
+  "name": "ai-tools-development-suit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI 工具集成项目开发套件 — 整合 OpenSpec、Superpowers、ai-tools-bridge",
+  "license": "MIT",
+  "workspaces": [
+    "ai-tools/OpenSpec",
+    "ai-tools/superpowers",
+    "ai-tools-bridge"
+  ]
+}

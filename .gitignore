@@ -1,0 +1,19 @@
+# 子项目构建产物
+node_modules/
+dist/
+*.tsbuildinfo
+
+# 临时文件
+*.stackdump
+log/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 版本锁备份
+versions.lock.bak
