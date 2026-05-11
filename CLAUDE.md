@@ -110,3 +110,4 @@ brainstorm.md (可选) → proposal.md (必需) → specs/ (必需)
 
 - 导出对话记录：保存到 `log/history/`
 - 保存当前对话（完整内容）：保存到 `log/plan/`
+- **log 目录保护**：`log/` 中的文件不可删除，只能通过 `.gitignore` 过滤不纳入版本控制
