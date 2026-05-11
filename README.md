@@ -14,7 +14,7 @@ AI 工具集成项目 — 整合 OpenSpec、Superpowers、ai-tools-bridge，提�
 
 ```bash
 # 克隆项目（含子模块）
-git clone --recursive https://github.com/liaosw97/AiTools.git
+git clone --recursive https://github.com/liaosw97/ai-tools-development-suit.git
 
 # 如果已经克隆但忘记 --recursive
 git submodule update --init --recursive
