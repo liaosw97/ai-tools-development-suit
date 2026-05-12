@@ -1,14 +1,22 @@
-# AiTools
+# AiTools Development Suit
 
-AI 工具集成项目 — 整合 OpenSpec、Superpowers、ai-tools-bridge，提供统一的规格驱动开发（SDD）工作流。
+AI 工具开发套件 — 以 [ai-tools-bridge](ai-tools-bridge/)（SDD 工作流编排器）为核心，整合 OpenSpec、Superpowers、Skills 三个子项目，提供统一的规格驱动开发（SDD）工作流。
 
 ## 子项目
+
+### 核心编排器
+
+| 项目 | 描述 | 版本 | 管理方式 |
+|------|------|------|----------|
+| [ai-tools-bridge](ai-tools-bridge/) | SDD 工作流编排器 — 串联 OpenSpec + Superpowers + Skills | v0.2.0 | Git Submodule |
+
+### 依赖子项目
 
 | 项目 | 描述 | 版本 | 管理方式 |
 |------|------|------|----------|
 | [OpenSpec](ai-tools/OpenSpec/) | 规格管理框架 CLI | v1.3.0 | Git Submodule |
 | [Superpowers](ai-tools/superpowers/) | AI 编码代理技能系统 | v5.1.0 | Git Submodule |
-| [ai-tools-bridge](ai-tools-bridge/) | SDD 工作流编排器 | v0.2.0 | Git Submodule |
+| [Skills](ai-tools/skills/) | AI 编码代理工程实践技能集 | — | Git Submodule |
 
 ## 快速开始
 
