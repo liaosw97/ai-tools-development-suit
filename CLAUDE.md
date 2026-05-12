@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概述
 
-这是一个 AI 工具开发工作区，三个子项目以 Git Submodule 方式管理：
+这是一个 AI 工具开发工作区，多个子项目以 Git Submodule 方式管理：
 
 | 目录 | 内容 | 语言 | 管理方式 |
 |------|------|------|----------|
@@ -68,7 +68,7 @@ openspec config profile  # 选择工作流 profile
 
 ### 子项目关系
 
-三个子项目以 Git Submodule 集成到主仓库。子项目保持独立版本历史，主仓库通过 commit hash 锁定版本（`versions.lock` 记录快照）。
+子项目以 Git Submodule 集成到主仓库。子项目保持独立版本历史，主仓库通过 commit hash 锁定版本（`versions.lock` 记录快照）。
 
 ```
 用户需求
