@@ -15,6 +15,7 @@ declare -A SUBMODULES=(
   ["openspec"]="ai-tools/OpenSpec"
   ["superpowers"]="ai-tools/superpowers"
   ["ai-tools-bridge"]="ai-tools-bridge"
+  ["skills"]="ai-tools/skills"
 )
 
 # 统计计数
