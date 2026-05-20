@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 |------|------|------|----------|
 | `ai-tools/OpenSpec/` | OpenSpec CLI — 规格管理框架 (v1.3.0) | TypeScript (pnpm) | Git Submodule |
 | `ai-tools/superpowers/` | Superpowers — AI 编码代理技能系统 (v5.1.0) | Markdown skills | Git Submodule |
-| `ai-tools-bridge/` | SDD 工作流编排器 — 串联 OpenSpec + Superpowers (v0.2.0) | Markdown + Vitest | Git Submodule |
+| `ai-tools-bridge/` | SDD 工作流编排器 — 串联 OpenSpec + Superpowers (v0.3.0) | Markdown + Vitest | Git Submodule |
 | `ai-tools/skills/` | Skills — AI 编码代理工程实践技能集 | Markdown skills | Git Submodule |
 | `.claude/` | 本地 Claude Code 配置（设置、命令、技能） | JSON/Markdown | — |
 | `openspec/` | 当前项目的 OpenSpec 变更目录 | YAML/Markdown | — |
@@ -80,13 +80,15 @@ ai-tools-bridge (SDD 编排)
 ai-tools/skills/ — 独立工具集，不参与 SDD 编排，与 Superpowers 互补
 ```
 
-SDD 的 11 个 action 各自独立，通过文件系统传递状态（`openspec/changes/<name>/`）。每个 action 遵循三层模式：前置逻辑（定位/校验）→ 核心执行（委托底层 skill）→ 后置逻辑（审查/验证）。
+SDD 的 13 个 action 各自独立，通过文件系统传递状态（`openspec/changes/<name>/`）。每个 action 遵循三层模式：前置逻辑（定位/校验）→ 核心执行（委托底层 skill）→ 后置逻辑（审查/验证）。
 
 ### 关键斜杠命令
 
 **SDD 工作流** (`ai-tools-bridge` 提供)：
-- `/sdd-doctor` — 环境诊断
-- `/sdd-brainstorm` → `/sdd-propose` → `/sdd-ff` → `/sdd-plan` → `/sdd-code` → `/sdd-ship`
+- `/sdd-doctor` — 环境诊断 + 复杂度评估
+- 完整流程：`/sdd-brainstorm` → `/sdd-propose` → `/sdd-ff` → `/sdd-review-spec` → `/sdd-plan` → `/sdd-code` → `/sdd-review-code` → `/sdd-test-code` → `/sdd-verify` → `/sdd-ship`
+- 快速路径：`/sdd-quick`（简单需求一站式）
+- 辅助：`/sdd-continue`（逐步补充 artifact）
 
 **OpenSpec 工作流** (`.claude/commands/opsx/` 提供)：
 - `/opsx:propose` → `/opsx:apply` → `/opsx:archive`
