@@ -21,16 +21,16 @@
 
 ### 3. 角色定义文件
 
-- [ ] 3.1 创建 `yc-office-hours.md` 角色定义 [spec:role-system#SC-01]
-- [ ] 3.2 创建 `ceo.md` 角色定义 [spec:role-system#SC-01]
-- [ ] 3.3 创建 `eng-manager.md` 角色定义 [spec:role-system#SC-01]
-- [ ] 3.4 创建 `designer.md` 角色定义 [spec:role-system#SC-01]
-- [ ] 3.5 创建 `developer.md` 角色定义 [spec:role-system#SC-01]
-- [ ] 3.6 创建 `staff-engineer.md` 角色定义 [spec:role-system#SC-01]
-- [ ] 3.7 创建 `qa-lead.md` 角色定义 [spec:role-system#SC-01]
-- [ ] 3.8 创建 `cso.md` 角色定义 [spec:role-system#SC-01]
-- [ ] 3.9 创建 `release-engineer.md` 角色定义 [spec:role-system#SC-01]
-- [ ] 3.10 创建 `sre.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.1 创建 `yc-office-hours.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.2 创建 `ceo.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.3 创建 `eng-manager.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.4 创建 `designer.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.5 创建 `developer.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.6 创建 `staff-engineer.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.7 创建 `qa-lead.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.8 创建 `cso.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.9 创建 `release-engineer.md` 角色定义 [spec:role-system#SC-01]
+- [x] 3.10 创建 `sre.md` 角色定义 [spec:role-system#SC-01]
 
 ### 4. SDD action 角色绑定
 
