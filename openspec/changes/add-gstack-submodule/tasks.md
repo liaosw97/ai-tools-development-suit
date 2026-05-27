@@ -46,16 +46,16 @@
 
 ### 5. 角色切换命令
 
-- [ ] 5.1 创建 `.claude/commands/sdd-role.md` 命令定义 [spec:role-command#SC-01]
-- [ ] 5.2 实现显示当前角色功能 [spec:role-command#SC-01]
-- [ ] 5.3 实现切换角色功能 [spec:role-command#SC-02]
-- [ ] 5.4 实现列出所有角色功能 [spec:role-command#SC-04]
-- [ ] 5.5 实现角色不存在时的错误处理 [spec:role-command#SC-03]
+- [x] 5.1 创建 `.claude/commands/sdd-role.md` 命令定义 [spec:role-command#SC-01]
+- [x] 5.2 实现显示当前角色功能 [spec:role-command#SC-01]
+- [x] 5.3 实现切换角色功能 [spec:role-command#SC-02]
+- [x] 5.4 实现列出所有角色功能 [spec:role-command#SC-04]
+- [x] 5.5 实现角色不存在时的错误处理 [spec:role-command#SC-03]
 
 ### 6. 角色参数支持
 
-- [ ] 6.1 实现 `--role` 参数解析 [spec:role-system#SC-04]
-- [ ] 6.2 实现参数优先级高于会话级角色 [spec:role-command#边界条件]
+- [x] 6.1 实现 `--role` 参数解析 [spec:role-system#SC-04]
+- [x] 6.2 实现参数优先级高于会话级角色 [spec:role-command#边界条件]
 
 ### 7. 角色优先级合并
 
