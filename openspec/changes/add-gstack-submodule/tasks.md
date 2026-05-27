@@ -34,15 +34,15 @@
 
 ### 4. SDD action 角色绑定
 
-- [ ] 4.1 为 `sdd-brainstorm` 添加角色加载逻辑 [spec:role-system#SC-03]
-- [ ] 4.2 为 `sdd-propose` 添加角色加载逻辑 [spec:role-system#SC-03]
-- [ ] 4.3 为 `sdd-review-spec` 添加角色加载逻辑 [spec:role-system#SC-03]
-- [ ] 4.4 为 `sdd-plan` 添加角色加载逻辑 [spec:role-system#SC-03]
-- [ ] 4.5 为 `sdd-code` 添加角色加载逻辑 [spec:role-system#SC-03]
-- [ ] 4.6 为 `sdd-review-code` 添加角色加载逻辑 [spec:role-system#SC-03]
-- [ ] 4.7 为 `sdd-test-code` 添加角色加载逻辑 [spec:role-system#SC-03]
-- [ ] 4.8 为 `sdd-verify` 添加角色加载逻辑 [spec:role-system#SC-03]
-- [ ] 4.9 为 `sdd-ship` 添加角色加载逻辑 [spec:role-system#SC-03]
+- [x] 4.1 为 `sdd-brainstorm` 添加角色加载逻辑 [spec:role-system#SC-03]
+- [x] 4.2 为 `sdd-propose` 添加角色加载逻辑 [spec:role-system#SC-03]
+- [x] 4.3 为 `sdd-review-spec` 添加角色加载逻辑 [spec:role-system#SC-03]
+- [x] 4.4 为 `sdd-plan` 添加角色加载逻辑 [spec:role-system#SC-03]
+- [x] 4.5 为 `sdd-code` 添加角色加载逻辑 [spec:role-system#SC-03]
+- [x] 4.6 为 `sdd-review-code` 添加角色加载逻辑 [spec:role-system#SC-03]
+- [x] 4.7 为 `sdd-test-code` 添加角色加载逻辑 [spec:role-system#SC-03]
+- [x] 4.8 为 `sdd-verify` 添加角色加载逻辑 [spec:role-system#SC-03]
+- [x] 4.9 为 `sdd-ship` 添加角色加载逻辑 [spec:role-system#SC-03]
 
 ### 5. 角色切换命令
 
