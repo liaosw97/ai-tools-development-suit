@@ -1,7 +1,8 @@
 # versions.lock — AiTools 子项目版本快照
-# Updated: 2026-05-11T10:04:29Z
+# Updated: 2026-05-27T01:30:00Z
 
 openspec=f529b25 untagged
 superpowers=f2cbfbe untagged
 ai-tools-bridge=d3c4944 untagged
 skills=9f2e0bd untagged
+gstack=cf50443 untagged

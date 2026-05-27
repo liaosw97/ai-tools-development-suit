@@ -111,6 +111,33 @@ brainstorm.md (可选) → proposal.md (必需) → specs/ (必需)
 - **Token 卫生**：每个 action 后执行 `/clear`，最小化上下文加载
 - **模板占位符**：HTML 注释 `<!-- ... -->`
 
+## 角色系统
+
+SDD action 支持角色视角切换，不同角色提供不同的专业视角和强制问题。
+
+### 使用方式
+
+```bash
+/sdd-review-code              # 默认 staff-engineer 角色
+/sdd-review-code --role cso   # 切换为安全官角色
+/sdd-role cso                 # 切换当前会话角色
+/sdd-role                     # 显示当前角色
+/sdd-role --list              # 列出所有可用角色
+```
+
+### 内置角色
+
+| 分类 | 角色 | 适用 action |
+|------|------|-------------|
+| Planning | yc-office-hours, ceo, eng-manager, designer | sdd-brainstorm, sdd-propose, sdd-plan |
+| Execution | developer | sdd-code |
+| Review | staff-engineer, qa-lead, cso | sdd-review-*, sdd-test-code, sdd-verify |
+| Release | release-engineer, sre | sdd-ship |
+
+### 角色优先级
+
+用户级 (`~/.claude/roles/`) > 项目级 (`openspec/roles/`) > 内置 (`ai-tools-bridge/roles/`)
+
 ## 会话管理
 
 - 导出对话记录：保存到 `log/history/`

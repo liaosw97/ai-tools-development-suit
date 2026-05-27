@@ -10,3 +10,6 @@
 [submodule "ai-tools/skills"]
 	path = ai-tools/skills
 	url = https://github.com/liaosw97/skills.git
+[submodule "ai-tools/gstack"]
+	path = ai-tools/gstack
+	url = https://github.com/liaosw97/gstack.git
