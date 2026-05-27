@@ -59,10 +59,10 @@
 
 ### 7. 角色优先级合并
 
-- [ ] 7.1 实现角色文件查找逻辑（三层源） [spec:role-system#SC-05]
-- [ ] 7.2 实现优先级合并规则 [spec:role-system#SC-05]
-- [ ] 7.3 实现角色文件缺失降级 [spec:role-system#SC-06]
-- [ ] 7.4 实现角色格式错误处理 [spec:role-system#SC-07]
+- [x] 7.1 实现角色文件查找逻辑（三层源） [spec:role-system#SC-05]
+- [x] 7.2 实现优先级合并规则 [spec:role-system#SC-05]
+- [x] 7.3 实现角色文件缺失降级 [spec:role-system#SC-06]
+- [x] 7.4 实现角色格式错误处理 [spec:role-system#SC-07]
 
 ### 8. 文档更新
 
