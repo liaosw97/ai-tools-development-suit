@@ -47,7 +47,11 @@
       "Edit(tests/**)",
       "Write(src/**)",
       "Write(Sources/**)",
-      "Write(Tests/**)"
+      "Write(Tests/**)",
+      "Edit(openspec/changes/**)",
+      "Write(openspec/changes/**)",
+      "Edit(ai-tools-bridge/**)",
+      "Write(ai-tools-bridge/**)"
     ],
     "ask": [
       "Bash(git commit:*)",
@@ -63,7 +67,8 @@
       "Edit(Podfile)",
       "Edit(tsconfig.*)",
       "Edit(vite.config.*)",
-      "Write(**)"
+      "Write(**)",
+      "Write(archive/**)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
