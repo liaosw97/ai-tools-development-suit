@@ -1,0 +1,83 @@
+
+> ai-tools-bridge@0.3.1 test D:\Code\AI\AiTools\ai-tools-bridge
+> vitest run
+
+
+[1m[46m RUN [49m[22m [36mv3.2.4 [39m[90mD:/Code/AI/AiTools/ai-tools-bridge[39m
+
+[90mstdout[2m | tests/unit/token-budget.test.ts[2m > [22m[2mtoken budget[2m > [22m[2mdefinition layer[2m > [22m[2mshould measure SDD skills
+[22m[39mSDD Skills: 14 files, 2341 lines, ~11705 tokens
+
+[90mstdout[2m | tests/unit/token-budget.test.ts[2m > [22m[2mtoken budget[2m > [22m[2mdefinition layer[2m > [22m[2mshould measure guidelines
+[22m[39mGuidelines: 4 files, 391 lines, ~1955 tokens
+
+[90mstdout[2m | tests/unit/token-budget.test.ts[2m > [22m[2mtoken budget[2m > [22m[2mdefinition layer[2m > [22m[2mshould measure templates
+[22m[39mTemplates: 8 files, 282 lines, ~1410 tokens
+
+[90mstdout[2m | tests/unit/token-budget.test.ts[2m > [22m[2mtoken budget[2m > [22m[2mdefinition layer[2m > [22m[2mshould measure reviewer prompts
+[22m[39mReviewer Prompts: 7 files, 563 lines, ~2815 tokens
+
+[90mstdout[2m | tests/unit/token-budget.test.ts[2m > [22m[2mtoken budget[2m > [22m[2mdefinition layer[2m > [22m[2mshould generate total definition layer report
+[22m[39m
+=== Definition Layer Token Budget ===
+SDD Skills: 11705 tokens
+Guidelines: 1955 tokens
+Templates: 1410 tokens
+Total: 15070 tokens
+
+ [32m✓[39m tests/unit/token-budget.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+ [32m✓[39m tests/l2-orchestration/skill-delegation.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32m✓[39m tests/l2-orchestration/review-loops.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/skill-frontmatter.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 26[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/skill-name-matches-dir.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/scan-review-phase.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/pre-validation.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/sdd-plan-schema.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/post-recommendation.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+ [32m✓[39m tests/unit/state-file.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/schema-yaml.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32m✓[39m tests/l2-orchestration/three-layer-structure.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 44[2mms[22m[39m
+ [32m✓[39m tests/setup.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 52[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/sdd-test-code-schema.test.ts [2m([22m[2m23 tests[22m[2m)[22m[32m 56[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/sdd-quick-schema.test.ts [2m([22m[2m24 tests[22m[2m)[22m[32m 57[2mms[22m[39m
+ [32m✓[39m tests/cli/summarize-tasks.test.mjs [2m([22m[2m4 tests[22m[2m)[22m[33m 460[2mms[22m[39m
+ [32m✓[39m tests/cli/summarize-spec.test.mjs [2m([22m[2m3 tests[22m[2m)[22m[33m 394[2mms[22m[39m
+ [32m✓[39m tests/cli/compress-review.test.mjs [2m([22m[2m5 tests[22m[2m)[22m[33m 579[2mms[22m[39m
+ [32m✓[39m tests/cli/state-file.test.mjs [2m([22m[2m4 tests[22m[2m)[22m[33m 681[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/sdd-doctor-schema.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32m✓[39m tests/sdd-code.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m tests/breakdown/feature-tree-parse.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+[90mstdout[2m | tests/precision/baseline.test.ts[2m > [22m[2mtoken budget baseline[2m > [22m[2mdefinition layer[2m > [22m[2mshould measure SDD skills token count
+[22m[39mSDD Skills: 14 files, 2341 lines, ~11705 tokens
+
+[90mstdout[2m | tests/precision/baseline.test.ts[2m > [22m[2mtoken budget baseline[2m > [22m[2mdefinition layer[2m > [22m[2mshould measure guidelines token count
+[22m[39mGuidelines: 4 files, 391 lines, ~1955 tokens
+
+ [32m✓[39m tests/precision/fixtures.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m tests/precision/baseline.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32m✓[39m tests/unit/artifact-bridge.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/sdd-quick-references.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/reviewer-prompts.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m tests/l2-orchestration/override-instructions.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32m✓[39m tests/l2-orchestration/reviewer-prompt-alignment.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32m✓[39m tests/l2-orchestration/preconditions.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32m✓[39m tests/sdd-brainstorm.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m tests/breakdown/dependency-detection.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/template-placeholders.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m tests/breakdown/directory-similarity.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m tests/unit/degradation.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m tests/unit/review-context.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m tests/unit/summarizer.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m tests/schema.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m tests/sdd-plan.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/guidelines.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/skills-directory.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/plugin-json.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m tests/l1-structural/template-files.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32m✓[39m tests/l2-orchestration/dependency-chain.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m44 passed[39m[22m[90m (44)[39m
+[2m      Tests [22m [1m[32m347 passed[39m[22m[90m (347)[39m
+[2m   Start at [22m 23:06:59
+[2m   Duration [22m 2.20s[2m (transform 1.32s, setup 0ms, collect 6.42s, tests 2.86s, environment 10ms, prepare 6.82s)[22m
+
