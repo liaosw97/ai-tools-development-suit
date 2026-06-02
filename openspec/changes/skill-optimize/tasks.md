@@ -32,8 +32,8 @@
 
 ## 5. 验证
 
-- [ ] 5.1 运行 `pnpm test` 确认结构验证通过
-- [ ] 5.2 生成 diff 文件，审查关键 SKILL（sdd-brainstorm、sdd-plan、sdd-code）
+- [x] 5.1 运行 `pnpm test` 确认结构验证通过
+- [x] 5.2 生成 diff 文件，审查关键 SKILL（sdd-brainstorm、sdd-plan、sdd-code）
 - [ ] 5.3 执行回归检查清单（frontmatter、触发条件、前置依赖、核心执行、后置逻辑）
 - [ ] 5.4 验证所有 include 路径有效性
 - [ ] 5.5 生成 token 节省报告（对比改造前后行数）
