@@ -36,9 +36,9 @@
 - [x] 5.2 生成 diff 文件，审查关键 SKILL（sdd-brainstorm、sdd-plan、sdd-code）
 - [x] 5.3 执行回归检查清单（frontmatter、触发条件、前置依赖、核心执行、后置逻辑）
 - [x] 5.4 验证所有 include 路径有效性
-- [ ] 5.5 生成 token 节省报告（对比改造前后行数）
+- [x] 5.5 生成 token 节省报告（对比改造前后行数）
 
 ## 6. 文档更新
 
-- [ ] 6.1 更新 CLAUDE.md 的架构说明（提及共享模块机制）
-- [ ] 6.2 更新 token-optimization.md 引用新结构
+- [x] 6.1 更新 CLAUDE.md 的架构说明（提及共享模块机制）
+- [x] 6.2 更新 token-optimization.md 引用新结构
