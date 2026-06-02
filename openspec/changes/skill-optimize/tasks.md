@@ -17,11 +17,11 @@
 
 ## 3. 改造 SKILL.md（中等文件）
 
-- [ ] 3.1 改造 `sdd-doctor/SKILL.md`（186→90行）
-- [ ] 3.2 改造 `sdd-review-code/SKILL.md`（184→95行）
-- [ ] 3.3 改造 `sdd-role/SKILL.md`（168→80行）
-- [ ] 3.4 改造 `sdd-propose/SKILL.md`（147→75行）
-- [ ] 3.5 改造 `sdd-verify/SKILL.md`（141→75行）
+- [x] 3.1 改造 `sdd-doctor/SKILL.md`（186→174行）
+- [x] 3.2 改造 `sdd-review-code/SKILL.md`（184→172行）
+- [x] 3.3 改造 `sdd-role/SKILL.md`（168→154行）
+- [x] 3.4 改造 `sdd-propose/SKILL.md`（147→135行）
+- [x] 3.5 改造 `sdd-verify/SKILL.md`（141→129行）
 
 ## 4. 改造 SKILL.md（小文件）
 
