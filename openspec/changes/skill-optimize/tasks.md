@@ -9,11 +9,11 @@
 
 ## 2. 改造 SKILL.md（大文件优先）
 
-- [ ] 2.1 改造 `sdd-brainstorm/SKILL.md`（472→180行）
-- [ ] 2.2 改造 `sdd-plan/SKILL.md`（286→120行）
-- [ ] 2.3 改造 `sdd-quick/SKILL.md`（213→100行）
-- [ ] 2.4 改造 `sdd-code/SKILL.md`（211→110行）
-- [ ] 2.5 改造 `sdd-ship/SKILL.md`（206→100行）
+- [x] 2.1 改造 `sdd-brainstorm/SKILL.md`（472→124行）
+- [x] 2.2 改造 `sdd-plan/SKILL.md`（285→224行）
+- [x] 2.3 改造 `sdd-quick/SKILL.md`（212→200行）
+- [x] 2.4 改造 `sdd-code/SKILL.md`（210→198行）
+- [x] 2.5 改造 `sdd-ship/SKILL.md`（205→193行）
 
 ## 3. 改造 SKILL.md（中等文件）
 
