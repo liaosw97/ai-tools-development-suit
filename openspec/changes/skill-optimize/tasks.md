@@ -1,0 +1,44 @@
+## 1. 创建共享模块目录和文件
+
+- [x] 1.1 创建 `skills/_shared/` 目录
+- [x] 1.2 提取 `base-triggers.md`（通用触发条件模板）
+- [x] 1.3 提取 `output-constraints.md`（输出约束 + 零结果防护）
+- [x] 1.4 提取 `role-loading.md`（角色加载完整逻辑）
+- [x] 1.5 提取 `breakdown-mode.md`（拆分模式检测 + 交互流程）
+- [x] 1.6 提取 `review-loop.md`（review 循环模式）
+
+## 2. 改造 SKILL.md（大文件优先）
+
+- [ ] 2.1 改造 `sdd-brainstorm/SKILL.md`（472→180行）
+- [ ] 2.2 改造 `sdd-plan/SKILL.md`（286→120行）
+- [ ] 2.3 改造 `sdd-quick/SKILL.md`（213→100行）
+- [ ] 2.4 改造 `sdd-code/SKILL.md`（211→110行）
+- [ ] 2.5 改造 `sdd-ship/SKILL.md`（206→100行）
+
+## 3. 改造 SKILL.md（中等文件）
+
+- [ ] 3.1 改造 `sdd-doctor/SKILL.md`（186→90行）
+- [ ] 3.2 改造 `sdd-review-code/SKILL.md`（184→95行）
+- [ ] 3.3 改造 `sdd-role/SKILL.md`（168→80行）
+- [ ] 3.4 改造 `sdd-propose/SKILL.md`（147→75行）
+- [ ] 3.5 改造 `sdd-verify/SKILL.md`（141→75行）
+
+## 4. 改造 SKILL.md（小文件）
+
+- [ ] 4.1 改造 `sdd-test-code/SKILL.md`（134→70行）
+- [ ] 4.2 改造 `sdd-ff/SKILL.md`（126→65行）
+- [ ] 4.3 改造 `sdd-review-spec/SKILL.md`（125→65行）
+- [ ] 4.4 改造 `sdd-continue/SKILL.md`（121→60行）
+
+## 5. 验证
+
+- [ ] 5.1 运行 `pnpm test` 确认结构验证通过
+- [ ] 5.2 生成 diff 文件，审查关键 SKILL（sdd-brainstorm、sdd-plan、sdd-code）
+- [ ] 5.3 执行回归检查清单（frontmatter、触发条件、前置依赖、核心执行、后置逻辑）
+- [ ] 5.4 验证所有 include 路径有效性
+- [ ] 5.5 生成 token 节省报告（对比改造前后行数）
+
+## 6. 文档更新
+
+- [ ] 6.1 更新 CLAUDE.md 的架构说明（提及共享模块机制）
+- [ ] 6.2 更新 token-optimization.md 引用新结构
