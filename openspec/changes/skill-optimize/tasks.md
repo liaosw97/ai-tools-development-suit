@@ -25,10 +25,10 @@
 
 ## 4. 改造 SKILL.md（小文件）
 
-- [ ] 4.1 改造 `sdd-test-code/SKILL.md`（134→70行）
-- [ ] 4.2 改造 `sdd-ff/SKILL.md`（126→65行）
-- [ ] 4.3 改造 `sdd-review-spec/SKILL.md`（125→65行）
-- [ ] 4.4 改造 `sdd-continue/SKILL.md`（121→60行）
+- [x] 4.1 改造 `sdd-test-code/SKILL.md`（134→122行）
+- [x] 4.2 改造 `sdd-ff/SKILL.md`（126→114行）
+- [x] 4.3 改造 `sdd-review-spec/SKILL.md`（125→114行）
+- [x] 4.4 改造 `sdd-continue/SKILL.md`（121→109行）
 
 ## 5. 验证
 
